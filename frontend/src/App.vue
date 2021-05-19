@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<Header />
+		<Header title="Vini - Base de conhecimento" :hideToggle="false" />
 		<Menu />
 		<Content />
 		<Footer />
