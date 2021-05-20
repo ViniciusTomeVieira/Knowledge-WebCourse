@@ -29,7 +29,6 @@ module.exports = app => {
                 notExistsOrError(userFromDB, 'Usuário já cadastrado')
             }
         }catch(msg) {
-            console.log("deu merda nas validações")
             return res.status(400).send(msg)
         }
 
