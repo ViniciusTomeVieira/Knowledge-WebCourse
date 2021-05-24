@@ -6,8 +6,8 @@
       :hideUserDropdown="!user"
     />
     <Menu v-if="user" />
-	<Loading v-if="validatingToken" />
-    <Content v-else/>
+	<Loading />
+    <Content/>
     <Footer />
   </div>
 </template>
